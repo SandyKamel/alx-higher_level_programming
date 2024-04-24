@@ -1,7 +1,8 @@
 #!/usr/bin/python3
-def add(a, b):
-     add_0 import add(a, b)
-     1 == a
-     2 == b
-     if__name__ == "__main__":
-print(f"add(a, b){a + b}")
+if __name__ == "__main__":
+    """Print the sum of 1 and 2."""
+    from add_0 import add
+
+    a = 1
+    b = 2
+    print("{} + {} = {}".format(a, b, add(a, b)))
